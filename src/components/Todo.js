@@ -34,8 +34,8 @@ const Todo=()=>{
                 {
                     todo.map((item,index)=>(
                         <li className="item-container">
-                            <p>{item} </p>
-                            <button onClick={()=>deleteItem(index)}> </button>
+                            <p>{item}</p>
+                            <button onClick={()=>deleteItem(index)}></button>
                         </li>
                     ))
                 }
