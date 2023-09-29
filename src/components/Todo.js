@@ -33,10 +33,10 @@ const Todo=()=>{
             <ul className="todo-container">
                 {
                     todo.map((item,index)=>(
-                        <div className="item-container">
+                        <li className="item-container">
                             <p>{item}</p>
                             <button onClick={()=>deleteItem(index)}>delete</button>
-                        </div>
+                        </li>
                     ))
                 }
             </ul>
